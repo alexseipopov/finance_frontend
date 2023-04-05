@@ -1,0 +1,12 @@
+.detail__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+@media (max-width: 760px) {
+    .detail__info{
+        flex-direction: column;
+    }
+}
