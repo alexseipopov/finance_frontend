@@ -12,7 +12,7 @@ const Menu = () => {
     // ]
     const getIdexes = () => {
         axios({
-            url: "http://localhost:3010/api/get_all_index"
+            url: "/api/get_all_index"
         }).then(getting_data => {
             console.log(getting_data)
             setData(getting_data.data)

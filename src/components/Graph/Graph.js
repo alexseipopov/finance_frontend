@@ -33,7 +33,7 @@ const Graph = ({chart_id, mode}) => {
     useEffect(() => {
       axios({
         method: 'GET',
-        url: `http://localhost:3010/api/${chart_id}_${mode}`
+        url: `/api/${chart_id}_${mode}`
       }).then(chart_data => {
         console.log(chart_data.data);
         setLabels(chart_data.data.labels)

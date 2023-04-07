@@ -42,5 +42,6 @@
   },
   "devDependencies": {
     "faker": "^6.6.6"
-  }
+  },
+  "proxy": "http://backend:3010/"
 }
